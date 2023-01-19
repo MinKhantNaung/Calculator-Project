@@ -1,0 +1,39 @@
+.container {
+    width: 300px;
+    margin: 50px auto;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    gap: 20px;
+}
+
+.container input {
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+}
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+button:hover {
+    cursor: pointer;
+}
+button:active {
+    background-color: blue;
+}
+.error {
+    background-color: rgb(192, 137, 8);
+    color: red;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}

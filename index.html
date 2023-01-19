@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div>
+            <input type="text" id="result" disabled>
+        </div>
+        <div>
+            <input type="number" id="first-input" placeholder="Enter a number" required>
+            <div class="error" id="firstError">First Number is required!</div>
+        </div>
+        <div>
+            <input type="number" id="second-input" placeholder="Enter a number" required>
+            <div class="error" id="secError">Second Number is required!</div>
+        </div>
+        <div>
+            <select id="select-sign">
+                <option value="empty">Choose Operator</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+                <option value="%">%</option>
+            </select>
+            <div class="error" id="operatorError">Operator is required!</div>
+        </div>
+        <div>
+            <button id="calculateBtn">Calculate</button>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
